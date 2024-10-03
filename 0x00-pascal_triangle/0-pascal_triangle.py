@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-0. Pascal's Triangle
+Pascal's Traiangle:Triangular array of numbers
 """
 
 
@@ -14,8 +14,8 @@ def pascal_triangle(n):
     trig = [[1]]
     for i in range(1, n):
         row = [1]
-        row.extend([res[i - 1][j - 1] + res[i - 1][j] for j in range(1, i)])
+        row.extend([trig[i - 1][j - 1] + trig[i - 1][j] for j in range(1, i)])
         row.append(1)
-        res.append(row)
+        trig.append(row)
 
     return trig
