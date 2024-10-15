@@ -19,6 +19,7 @@ def canUnlockAll(boxes):
             keys_to_check.extend(boxes[boxIdx])
     return len(boxesPresent) == n
 
+
 def main():
     """Entry point"""
     boxes = [[1, 2], [3], [0, 4], [], []]
