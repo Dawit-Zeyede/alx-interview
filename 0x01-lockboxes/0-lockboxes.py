@@ -10,7 +10,7 @@ def canUnlockAll(boxes):
     '''
     n = len(boxes)
     boxesPresent = {0}
-    keys_to_check = list(boxes[0])
+    keys_to_check = set(boxes[0])
 
     while keys_to_check:
         boxIdx = keys_to_check.pop(0)
