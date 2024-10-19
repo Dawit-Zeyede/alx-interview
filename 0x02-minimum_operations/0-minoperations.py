@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-""" Module for min_operations """
+'''
+Minimum operations for alx interview.
+'''
+
 
 def minOperations(n):
     """
