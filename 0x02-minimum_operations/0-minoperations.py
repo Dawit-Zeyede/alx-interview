@@ -13,7 +13,8 @@ def minOperations(n):
 
     while current > 1:
         for i in range(current // 2, 0, -1):
-            operations += current // i
-            current = i
-            break
+            if current % i == 0:
+                operations += current // i
+                current = i
+                break
     return operations
