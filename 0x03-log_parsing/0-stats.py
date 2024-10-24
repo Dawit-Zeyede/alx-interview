@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 import sys
 
+
 def print_msg(dict_sc, total_file_size):
     """
     Method to print statistics.
-    
     Args:
         dict_sc: dict of status codes
         total_file_size: total file size
@@ -16,10 +16,10 @@ def print_msg(dict_sc, total_file_size):
         if dict_sc[key] > 0:
             print(f"{key}: {dict_sc[key]}")
 
+
 def update_dict_sc(code, dict_sc):
     """
     Update the status code dictionary.
-    
     Args:
         code: The status code to update
         dict_sc: The dictionary of status codes
@@ -27,16 +27,17 @@ def update_dict_sc(code, dict_sc):
     if code in dict_sc:
         dict_sc[code] += 1
 
+
 total_file_size = 0
 dict_sc = {
-    "200": 0,
-    "301": 0,
-    "400": 0,
-    "401": 0,
-    "403": 0,
-    "404": 0,
-    "405": 0,
-    "500": 0
+        "200": 0,
+        "301": 0,
+        "400": 0,
+        "401": 0,
+        "403": 0,
+        "404": 0,
+        "405": 0,
+        "500": 0
 }
 counter = 0
 
