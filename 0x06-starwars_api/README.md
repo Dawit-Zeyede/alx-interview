@@ -1,0 +1,5 @@
+# Star Wars Characters
+
+This project is a Node.js script that interacts with the Star Wars API to retrieve and display the names of Star Wars characters from a specific movie. By providing a movie ID as a command-line argument, the script fetches character data, parses it, and presents it in a structured format. Key skills demonstrated in this project include making HTTP requests to external APIs, handling asynchronous programming using promises or async/await syntax, and managing data with JavaScript arrays. Through this project, users learn to build efficient, asynchronous workflows for interacting with RESTful APIs and processing data in JavaScript.
+
+To complete this project, familiarity with several core concepts is recommended. These include: handling HTTP requests in Node.js, parsing JSON data from API responses, using `process.argv` to capture command-line arguments, and iterating over data to display results. Mastery of these concepts ensures that you can retrieve, process, and display data from APIs effectively in JavaScript, equipping you with essential web programming skills.
