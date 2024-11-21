@@ -6,9 +6,7 @@ Rotate 2D Matrix
 
 def rotate_2d_matrix(matrix):
     '''
-    Rotate two dimension matrix 90 degrees clockwise
-    
-    
+    Rotate two dimension matrix 90 degrees clockwis
     Args:
         matrix (list[[list]]): a matrix
     '''
